@@ -181,6 +181,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -264,7 +265,6 @@
               ]
             },
             "id": "7f226daf-0de5-4669-ad39-bbfe13aa3c09",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -298,6 +298,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -381,7 +382,6 @@
               ]
             },
             "id": "ee15b5ff-b3c9-4397-8145-22dce0b5614e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
@@ -415,6 +415,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -498,7 +499,6 @@
               ]
             },
             "id": "988d6497-64d3-4661-a142-c13b0f740e18",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Domain Controller",
@@ -583,6 +583,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -666,7 +667,6 @@
               ]
             },
             "id": "1d5228a9-6507-4161-9ddf-5cf7f9aa7cd8",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "File Server",
@@ -769,6 +769,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -852,7 +853,6 @@
               ]
             },
             "id": "539c395a-9352-4582-ac0d-ceb9233eebca",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Active Directory Database",
@@ -941,6 +941,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -1024,7 +1025,6 @@
               ]
             },
             "id": "e94857ad-d04d-44b9-8dcc-3976f145c13e",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "Shared Files",
@@ -1115,6 +1115,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1198,7 +1199,6 @@
               ]
             },
             "id": "54919db0-351a-4ad6-89a9-d3df4cd22131",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Client PC",
