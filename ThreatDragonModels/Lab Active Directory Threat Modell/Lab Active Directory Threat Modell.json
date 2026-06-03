@@ -16,11 +16,2074 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "User Zone",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "88358b3d-8b58-4fb4-8211-17da76a15293",
+                "9bca66a0-65f8-4214-8331-67848c32c555"
+              ],
+              "containedElements": [
+                "7f226daf-0de5-4669-ad39-bbfe13aa3c09",
+                "ee15b5ff-b3c9-4397-8145-22dce0b5614e"
+              ]
+            },
+            "labels": [
+              "User Zone"
+            ],
+            "id": "927fbddb-16ec-41c8-a53e-72a3ac3301c0",
+            "source": {
+              "x": -910,
+              "y": 0
+            },
+            "target": {
+              "x": -1230,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": -970,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internal Network",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "86f5a17a-b519-4fc1-bcb5-3ec10c4ceac6"
+              ],
+              "containedElements": [
+                "e94857ad-d04d-44b9-8dcc-3976f145c13e"
+              ]
+            },
+            "labels": [
+              "Internal Network"
+            ],
+            "id": "26d19938-2610-415a-be2f-3a76a51843d2",
+            "source": {
+              "x": -850,
+              "y": 70
+            },
+            "target": {
+              "x": -460,
+              "y": 540
+            },
+            "vertices": [
+              {
+                "x": -830,
+                "y": 110
+              },
+              {
+                "x": -740,
+                "y": 140
+              },
+              {
+                "x": -690,
+                "y": 300
+              },
+              {
+                "x": -560,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Critical AD Infrastructure",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "9bca66a0-65f8-4214-8331-67848c32c555",
+                "c371d105-5cee-4a57-86fe-163f2a69d590",
+                "a9966fbb-68f4-4c3c-99ee-12c2bc74cc5a"
+              ],
+              "containedElements": [
+                "988d6497-64d3-4661-a142-c13b0f740e18",
+                "539c395a-9352-4582-ac0d-ceb9233eebca"
+              ]
+            },
+            "labels": [
+              "Critical AD Infrastructure"
+            ],
+            "id": "7cda353d-4d51-42d7-b979-fa2441eb001a",
+            "source": {
+              "x": -400,
+              "y": 460
+            },
+            "target": {
+              "x": -390,
+              "y": 470
+            },
+            "vertices": [
+              {
+                "x": -550,
+                "y": 370
+              },
+              {
+                "x": -570,
+                "y": 160
+              },
+              {
+                "x": -210,
+                "y": 190
+              },
+              {
+                "x": -90,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": -1150,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc90174a-e7bc-4fb2-bc2d-05865c5b6244"
+                },
+                {
+                  "group": "right",
+                  "id": "94e75e5f-efe6-42cb-ae88-eda04abf450e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4301683a-9ad4-4ba8-9a2c-6cae2f90dda8"
+                },
+                {
+                  "group": "left",
+                  "id": "c63b6171-87e6-4cb1-9f40-c0abd60181bf"
+                }
+              ]
+            },
+            "id": "7f226daf-0de5-4669-ad39-bbfe13aa3c09",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -1100,
+              "y": 30
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Administrator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dc90174a-e7bc-4fb2-bc2d-05865c5b6244"
+                },
+                {
+                  "group": "right",
+                  "id": "94e75e5f-efe6-42cb-ae88-eda04abf450e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4301683a-9ad4-4ba8-9a2c-6cae2f90dda8"
+                },
+                {
+                  "group": "left",
+                  "id": "c63b6171-87e6-4cb1-9f40-c0abd60181bf"
+                }
+              ]
+            },
+            "id": "ee15b5ff-b3c9-4397-8145-22dce0b5614e",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Administrator",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -487,
+              "y": 190
+            },
+            "size": {
+              "width": 130,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Domain Controller"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+                },
+                {
+                  "group": "right",
+                  "id": "d9816422-55ef-41ab-8917-bc821e46886c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "57541d9b-491c-464d-b0a1-c8cd3d93dcd2"
+                },
+                {
+                  "group": "left",
+                  "id": "54fad340-406b-446e-9712-bc9aa41b48c9"
+                }
+              ]
+            },
+            "id": "988d6497-64d3-4661-a142-c13b0f740e18",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "Domain Controller",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "e5e7cf99-0f6a-48ea-8488-cdb1e5f95ec9",
+                  "title": "Kerberoasting attack against service accounts.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                },
+                {
+                  "id": "89e329e0-6b53-4967-b5af-ff9fdb0d11e0",
+                  "title": "Privilege escalation through misconfigured Group Policy Objects.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                },
+                {
+                  "id": "4fd5c5fd-d557-4e96-a455-cba87c343e46",
+                  "title": "LDAP enumeration of users and groups.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 2
+              }
+            }
+          },
+          {
+            "position": {
+              "x": -1037.5,
+              "y": 410
+            },
+            "size": {
+              "width": 130,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "File Server"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+                },
+                {
+                  "group": "right",
+                  "id": "d9816422-55ef-41ab-8917-bc821e46886c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "57541d9b-491c-464d-b0a1-c8cd3d93dcd2"
+                },
+                {
+                  "group": "left",
+                  "id": "54fad340-406b-446e-9712-bc9aa41b48c9"
+                }
+              ]
+            },
+            "id": "1d5228a9-6507-4161-9ddf-5cf7f9aa7cd8",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "File Server",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "1412a1e3-4cbd-4243-b736-179fd0a9d11d",
+                  "title": "Unauthorized modification of shared files.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Access control lists and file auditing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "d3ab5bd2-4513-46d5-8b41-a680f959415e",
+                  "title": "Unauthorized access to confidential documents.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Role-based access control and permission reviews.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "4d9b9d40-5dd8-4508-a270-7f437fb8f571",
+                  "title": "Excessive file access requests causing service degradation.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Monitoring and resource management.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                },
+                {
+                  "id": "cf6c7934-e063-4dc5-86f7-55e97f2a1eca",
+                  "title": "Privilege escalation through misconfigured file permissions.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Apply least privilege and review share permissions.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": -314.5,
+              "y": 381
+            },
+            "size": {
+              "width": 190,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Active Directory Database"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "00164801-b148-453d-b462-8494aa8596fb"
+                },
+                {
+                  "group": "right",
+                  "id": "d6089c61-cf52-4a08-8e45-4c0f4eddd583"
+                },
+                {
+                  "group": "bottom",
+                  "id": "20472f9e-39b6-4363-98e9-ba5eb250bf5b"
+                },
+                {
+                  "group": "left",
+                  "id": "33f91918-098c-4caf-9ed1-d4843310c57a"
+                }
+              ]
+            },
+            "id": "539c395a-9352-4582-ac0d-ceb9233eebca",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Store",
+              "name": "Active Directory Database",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "60725bd3-7327-4698-a653-4a733bb8b769",
+                  "title": "Unauthorized modification of directory objects.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Restrict write permissions and enable auditing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                },
+                {
+                  "id": "82d5250f-0f54-4604-9a65-389f86c022ec",
+                  "title": "Disclosure of user, group, and policy information.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Access controls and directory auditing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                },
+                {
+                  "id": "3b074319-0197-4ae1-b6c8-392ff2aa4c30",
+                  "title": "Excessive directory queries affecting performance.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Monitoring and redundant Domain Controllers.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": -700,
+              "y": 470
+            },
+            "size": {
+              "width": 190,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Shared Files"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "00164801-b148-453d-b462-8494aa8596fb"
+                },
+                {
+                  "group": "right",
+                  "id": "d6089c61-cf52-4a08-8e45-4c0f4eddd583"
+                },
+                {
+                  "group": "bottom",
+                  "id": "20472f9e-39b6-4363-98e9-ba5eb250bf5b"
+                },
+                {
+                  "group": "left",
+                  "id": "33f91918-098c-4caf-9ed1-d4843310c57a"
+                }
+              ]
+            },
+            "id": "e94857ad-d04d-44b9-8dcc-3976f145c13e",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Store",
+              "name": "Shared Files",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "345ea3b1-d105-486f-a00d-2f49763bb9d5",
+                  "title": "Unauthorized modification of stored files.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "File integrity monitoring and access controls.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 40,
+                  "score": ""
+                },
+                {
+                  "id": "1935cad9-e73a-4fee-a79b-bec538f5b927",
+                  "title": "Exposure of confidential files.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Proper file permissions and encryption.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 41,
+                  "score": ""
+                },
+                {
+                  "id": "abcc0f54-ade9-49fd-b6f6-75489aeb065f",
+                  "title": "Storage exhaustion preventing file access.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Storage monitoring and quotas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": -890,
+              "y": 180
+            },
+            "size": {
+              "width": 120,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Client PC"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+                },
+                {
+                  "group": "right",
+                  "id": "d9816422-55ef-41ab-8917-bc821e46886c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "57541d9b-491c-464d-b0a1-c8cd3d93dcd2"
+                },
+                {
+                  "group": "left",
+                  "id": "54fad340-406b-446e-9712-bc9aa41b48c9"
+                }
+              ]
+            },
+            "id": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Process",
+              "name": "Client PC",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "44779723-d601-4d37-b70c-415e2cc325a0",
+                  "title": "Malware modifying system configuration or security settings.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Endpoint protection and regular patching.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                },
+                {
+                  "id": "1ae7c010-0534-487c-bfe4-076b758d0794",
+                  "title": "Sensitive information stored locally and accessed by unauthorized users.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Disk encryption and access controls.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                },
+                {
+                  "id": "678e1516-89ee-432d-8196-3d6fd9e4ae38",
+                  "title": "Malware consuming system resources and preventing normal operation.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Endpoint monitoring and antivirus protection.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                },
+                {
+                  "id": "46f84352-22b5-4569-b7bf-5f913af7ed3a",
+                  "title": "Local privilege escalation through vulnerable software.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Regular patch management and least privilege.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 2,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Login",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "4b9af967-f83d-4519-8dcc-2957d840b324",
+                  "title": "User credentials exposed during login.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "927fbddb-16ec-41c8-a53e-72a3ac3301c0"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "User Login"
+            ],
+            "id": "88358b3d-8b58-4fb4-8211-17da76a15293",
+            "source": {
+              "cell": "7f226daf-0de5-4669-ad39-bbfe13aa3c09",
+              "port": "94e75e5f-efe6-42cb-ae88-eda04abf450e"
+            },
+            "target": {
+              "cell": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+              "port": "54fad340-406b-446e-9712-bc9aa41b48c9"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "File Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "3fe39100-7882-4631-9045-71a6e3064bce",
+                  "title": "Modification of files during transmission.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "dd1c9279-2351-4f5b-9162-687d8967bb8f",
+                  "title": "Exposure of sensitive files during transfer.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                },
+                {
+                  "id": "824f60a6-74da-42b5-b7c4-192cc85c717a",
+                  "title": "Large file transfers consuming server resources.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "File Data"
+            ],
+            "id": "56dd1b5e-b72f-451a-9ba3-97e98426995b",
+            "source": {
+              "cell": "1d5228a9-6507-4161-9ddf-5cf7f9aa7cd8",
+              "port": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+            },
+            "target": {
+              "cell": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+              "port": "57541d9b-491c-464d-b0a1-c8cd3d93dcd2"
+            },
+            "vertices": [
+              {
+                "x": -1040,
+                "y": 380
+              },
+              {
+                "x": -1060,
+                "y": 330
+              },
+              {
+                "x": -1000,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read/Write Directory Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d0b6e480-7fce-42ff-99d7-1febc51138bd",
+                  "title": "Unauthorized modification of Active Directory objects.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "980066b9-06f9-4a19-befc-bc924cce8f91",
+                  "title": "Exposure of user, group, and policy information.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                },
+                {
+                  "id": "810723f7-f330-40af-9450-3ae53ab48db1",
+                  "title": "Database requests exhausting directory services.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Read/Write Directory Data"
+            ],
+            "id": "f2b8d0e2-5063-4f87-ac07-28ae58af6310",
+            "source": {
+              "cell": "988d6497-64d3-4661-a142-c13b0f740e18",
+              "port": "d9816422-55ef-41ab-8917-bc821e46886c"
+            },
+            "target": {
+              "cell": "539c395a-9352-4582-ac0d-ceb9233eebca",
+              "port": "33f91918-098c-4caf-9ed1-d4843310c57a"
+            },
+            "vertices": [
+              {
+                "x": -357,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read/Write Files",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "0f60729e-05f3-47b4-b6d7-d076b7d0bb55",
+                  "title": "Unauthorized modification of stored files.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                },
+                {
+                  "id": "1e7a655b-1328-4669-92a3-42ac09c36ba5",
+                  "title": "Exposure of confidential files.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                },
+                {
+                  "id": "3842137e-bdd8-44db-86d2-1ea83d839579",
+                  "title": "Excessive file operations causing storage service disruption.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "26d19938-2610-415a-be2f-3a76a51843d2"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Read/Write Files"
+            ],
+            "id": "86f5a17a-b519-4fc1-bcb5-3ec10c4ceac6",
+            "source": {
+              "cell": "1d5228a9-6507-4161-9ddf-5cf7f9aa7cd8",
+              "port": "d9816422-55ef-41ab-8917-bc821e46886c"
+            },
+            "target": {
+              "cell": "e94857ad-d04d-44b9-8dcc-3976f145c13e",
+              "port": "33f91918-098c-4caf-9ed1-d4843310c57a"
+            },
+            "vertices": [
+              {
+                "x": -740,
+                "y": 480
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Administrative Access",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "4b0f4cd9-7253-4f63-b19a-45b4316e9761",
+                  "title": "Unauthorized modification of administrative commands.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                },
+                {
+                  "id": "567b88a5-c1e5-4b2b-8922-f79bf4978b1b",
+                  "title": "Exposure of administrative credentials.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "86df33f4-4b68-4d91-b30b-20523111e491",
+                  "title": "Administrative interface overload causing management disruption.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "927fbddb-16ec-41c8-a53e-72a3ac3301c0",
+                "7cda353d-4d51-42d7-b979-fa2441eb001a"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Administrative Access"
+            ],
+            "id": "9bca66a0-65f8-4214-8331-67848c32c555",
+            "source": {
+              "cell": "ee15b5ff-b3c9-4397-8145-22dce0b5614e",
+              "port": "94e75e5f-efe6-42cb-ae88-eda04abf450e"
+            },
+            "target": {
+              "cell": "988d6497-64d3-4661-a142-c13b0f740e18",
+              "port": "d9816422-55ef-41ab-8917-bc821e46886c"
+            },
+            "vertices": [
+              {
+                "x": -530,
+                "y": 60
+              },
+              {
+                "x": -400,
+                "y": 90
+              },
+              {
+                "x": -250,
+                "y": 160
+              },
+              {
+                "x": -300,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "SMB File Access",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "7db0138f-498b-48f4-9c3f-193b031a7b1b",
+                  "title": "Modification of file access requests.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "6e7ef2cc-e07c-4d3e-b874-ace64c3b5318",
+                  "title": "Exposure of file access information.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "6cdd0bf1-424a-4e34-8017-b9c9eeff41c2",
+                  "title": "Excessive SMB requests causing service degradation.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "SMB File Access"
+            ],
+            "id": "3afda522-3018-46e5-8c5e-dd4fe5a728b2",
+            "source": {
+              "cell": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+              "port": "57541d9b-491c-464d-b0a1-c8cd3d93dcd2"
+            },
+            "target": {
+              "cell": "1d5228a9-6507-4161-9ddf-5cf7f9aa7cd8",
+              "port": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+            },
+            "vertices": [
+              {
+                "x": -830,
+                "y": 320
+              },
+              {
+                "x": -860,
+                "y": 360
+              },
+              {
+                "x": -910,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kerberos/LDAP Authentication",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "6d108388-19c4-4a8a-9b7e-820baa16c11c",
+                  "title": "Modification of LDAP authentication requests in transit",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Use LDAP signing and encrypted communication.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "0cd89eba-5653-4bdc-8c2f-c0eede650c94",
+                  "title": "Exposure of authentication information during transmission.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "1a399167-d2a3-4eb9-bfc2-17cf305a839d",
+                  "title": "Authentication flooding causing Domain Controller resource exhaustion.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "7cda353d-4d51-42d7-b979-fa2441eb001a"
+              ],
+              "threatFrequency": {
+                "tampering": 2,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Kerberos/LDAP Authentication"
+            ],
+            "id": "c371d105-5cee-4a57-86fe-163f2a69d590",
+            "source": {
+              "cell": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+              "port": "3926f5bd-4a42-4026-8d2c-8c0f6c300478"
+            },
+            "target": {
+              "cell": "988d6497-64d3-4661-a142-c13b0f740e18",
+              "port": "54fad340-406b-446e-9712-bc9aa41b48c9"
+            },
+            "vertices": [
+              {
+                "x": -780,
+                "y": 150
+              },
+              {
+                "x": -650,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authentication Result",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "4abb0349-8123-4116-8257-1d41f9c441dd",
+                  "title": "Manipulation of authentication responses.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "8b7e29eb-62a5-4a8e-ad1b-7179e7a1a374",
+                  "title": "Disclosure of authentication tokens or session information.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "3f7c1bae-6829-4c45-add8-4c510d259bfa",
+                  "title": "Blocking authentication responses causing login failures.",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "7cda353d-4d51-42d7-b979-fa2441eb001a"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1
+              }
+            },
+            "labels": [
+              "Authentication Result"
+            ],
+            "id": "a9966fbb-68f4-4c3c-99ee-12c2bc74cc5a",
+            "source": {
+              "cell": "988d6497-64d3-4661-a142-c13b0f740e18",
+              "port": "54fad340-406b-446e-9712-bc9aa41b48c9"
+            },
+            "target": {
+              "cell": "54919db0-351a-4ad6-89a9-d3df4cd22131",
+              "port": "d9816422-55ef-41ab-8917-bc821e46886c"
+            },
+            "vertices": [
+              {
+                "x": -650,
+                "y": 280
+              },
+              {
+                "x": -690,
+                "y": 260
+              },
+              {
+                "x": -720,
+                "y": 230
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 42
   }
 }
